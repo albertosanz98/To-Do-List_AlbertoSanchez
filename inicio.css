@@ -1,0 +1,54 @@
+* {
+    font-family: Century Gothic;
+    text-decoration: none;
+}
+::-webkit-scrollbar {
+    width: 4px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.253);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #00000073;
+}
+h1 {
+    display:block;
+    margin: 20px auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size:18px;
+    text-decoration: underline;
+}
+div{
+    margin:10px auto;
+    display:block;
+    width:fit-content;
+}
+s, span {
+    font-size: 12px;
+    text-transform: uppercase;
+    display:inline-block;
+    margin: 0 10px;
+}
+#recordatorios {
+    height:350px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    transition:all 0.3s ease;
+}
+.tachado {
+    text-decoration: line-through;
+}
+.pendiente {
+    color:#ffff00
+}
+.completado {
+    color:#008000;
+}
+.borrar {
+    color:#ff0000;
+}
